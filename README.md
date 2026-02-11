@@ -160,6 +160,19 @@ python main.py --stage pseudo --dataset Los_Angeles --dim_in 30 \
 
 ## Dataset Information
 
+The dataset used in this project is identical to the one used in the CIPGeo project. You can download it from: https://github.com/xtliu-uestc/CIPGeo/tree/main/CIPGeo_code/datasets. After downloading, please organize the directory structure as follows:
+AdaGeo/
+├── assert/
+├── datasets/
+├── lib/
+├──.gitignore
+├── main.py
+├── preprocess.py
+├── pretrain.py
+├── pseudo_train.py
+├── README.md
+├── train.py
+
 The "datasets" folder contains three subfolders corresponding to three large-scale real-world street-level IP geolocation    datasets collected from New York City, Los Angeles and Shanghai. There are three files in each subfolder:
 
 - data.csv    *# features (including attribute knowledge and network measurements) and labels (longitude and latitude) for street-level IP geolocation* 
